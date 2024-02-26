@@ -1,0 +1,459 @@
+body, html {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+
+.navbar {
+    background-color: #1c2e4a;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+}
+.nav-links li a:hover {
+
+  color: #B0C4DE;
+}
+
+
+
+
+
+
+
+.hero {
+    padding: 4rem; /* Increased padding */
+    min-height: 500px; /* Or whatever height you prefer */
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url('car1.png'); /* Fading effect with semi-transparent overlay */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the background image */
+    color: white; /* Adjust text color for better readability */
+}
+
+    .hero h1 {
+        font-size: 3rem; /* Increased font size */
+        font-weight: bold; /* Make text bold */
+        text-shadow: 2px 2px 4px #000; /* Text shadow for better readability */
+    }
+
+    .hero p {
+        font-size: 1.5rem; /* Increased font size */
+        font-weight: bold; /* Make text bold */
+        text-shadow: 2px 2px 4px #000; /* Text shadow for better readability */
+    }
+
+
+
+
+
+
+
+
+
+/* Adjustments for the single-image-display to ensure consistency */
+.single-image-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    max-width: 90%;
+    background-color: #fff; /* To match the white box requirement */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    padding: 20px; /* Internal padding */
+    margin: 20px auto; /* Centering and external spacing */
+}
+
+.content-text {
+    max-width: 60%;
+    padding-right: 20px;
+}
+
+.slide-img {
+    width: 35%; /* Adjusted size */
+    height: auto;
+    margin-left: 20px;
+}
+
+
+
+
+.services {
+    background-color: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.service-items {
+    display: flex;
+    justify-content: space-around;
+    text-align:left;
+    font-size:1.0rem;
+
+}
+
+.service-item {
+    background: white;
+    padding: 1rem;
+    margin: 1rem;
+    width: 30%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+
+
+
+
+.prices {
+    background-color: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.price-items {
+    display: flex;
+    justify-content: space-around;
+    text-align:left;
+    font-size:1.0rem;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.price-item {
+    background: white;
+    padding: 1rem;
+    margin: 1rem;
+    width: 30%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+
+
+
+
+.reviews {
+    background-color: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.review-items {
+    display: flex;
+    justify-content: space-around;
+    text-align:left;
+    font-size:1.0rem;
+}
+
+.review-item {
+    background: white;
+    padding: 1rem;
+    margin: 1rem;
+    width: 30%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 8px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+form {
+    background-color: #f4f4f4;
+    max-width: 600px;
+    margin: 0 auto;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    background-color: #1c2e4a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+input[type="submit"]:hover {
+    background-color: #007bff;
+}
+
+
+footer {
+    background-color: #1c2e4a;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.cta-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
+/* FAQ Section Styles */
+.faq {
+    background-color: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+    font-size: 16px;
+}
+
+.faq h2 {
+    margin-bottom: 2rem;
+}
+
+.faq-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.faq-item {
+    background: white;
+    padding: 1.5rem;
+    margin: 1rem;
+    width: 40%; /* Adjust width as needed */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    text-align: left;
+}
+
+.faq-item h3 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.faq-item p {
+    color: #666;
+    line-height: 1.6;
+}
+
+
+/* Slideshow container with border */
+.slideshow-container {
+    max-width: 1000px; /* Adjust based on your preference */
+    position: relative;
+    margin: auto;
+    overflow: hidden; /* Hide the slides outside of the slideshow container */
+    background-color: #fff; /* Match other elements' background */
+    border-radius: 10px; /* Rounded corners like other elements */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth, like other elements */
+    padding: 20px; /* Internal padding */
+    border: 1px solid #ccc; /* Adding a border */
+}
+
+
+/* Style for images in slides */
+.mySlides img {
+    max-width: 50%; /* Adjust image size */
+    max-height: auto; /* Maintain aspect ratio */
+    display: block; /* Use block to apply margin auto */
+    margin: auto; /* Center the image within the slide */
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+    text-align: center; /* Center the content of slides */
+}
+
+/* Fade animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 4s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* Show first slide */
+.mySlides:first-child {
+    display: block;
+}
+
+/* Optional: Add some style to the container */
+.our-work {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Navigation buttons adjustments for closer positioning */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 2; /* Ensure arrows are above the images */
+}
+
+/* Adjust these values to bring arrows closer to the center */
+.next {
+    right: 25%; /* Closer to center, adjust percentage as needed */
+    border-radius: 3px 0 0 3px;
+}
+
+.prev {
+    left: 25%; /* Closer to center, adjust percentage as needed */
+    border-radius: 3px 0 0 3px;
+}
+
+    .prev:hover, .next:hover {
+        background-color: #007bff;
+    }
+
+
+/* Dot indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    z-index: 2; /* Ensure dots are clickable and visible above the images */
+}
+
+    .active, .dot:hover {
+        background-color: #717171;
+    }
+
+.service-section {
+      margin-bottom: 30px;
+      margin-left: 300px;
+      margin-right: 300px;
+      margin-top: 70px;
+
+}
+.service-header {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 60px;
+      font-weight: bolder;
+}
+.service-list {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 20px;
+}
+.service-item {
+      /*background-color: white;*/
+      border: 2px solid white;
+      padding: 20px;
+      text-align: left;
+      width: 50%;
+      margin-bottom: 50px;
+      background-color: #1c2e4a;
+      color: white;
+}
+.service-item h3 {
+      font-size: 25px;
+      margin-bottom: 10px;
+}
+    .service-item p {
+      margin-bottom: 0px;
+}
+.price {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 20px;
+}
+.descrip{
+      font-size: 12px;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+
+  color: LightSteelBlue;
+}
