@@ -458,17 +458,11 @@ footer a:hover {
   color: LightSteelBlue;
 }
 
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 896px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) {
-    /* Adjust styles for iPhone XS Max, 11 Pro Max */
+@media only screen and (max-width: 576px) {
     .container {
-        width: 85%; /* Adjust width for larger taller screens */
+        width: 95%;
     }
 }
-
 
 
 
