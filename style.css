@@ -458,11 +458,6 @@ footer a:hover {
   color: LightSteelBlue;
 }
 
-@media only screen and (max-width: 576px) {
-    .container {
-        width: 95%;
-    }
-}
 
 
 
