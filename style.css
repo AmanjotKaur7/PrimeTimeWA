@@ -457,3 +457,39 @@ footer a:hover {
 
   color: LightSteelBlue;
 }
+
+
+
+
+
+
+
+
+
+
+/* Default styles */
+/* Add your default styles here */
+
+/* Media query for screens smaller than 600px */
+@media (max-width: 600px) {
+    /* Adjust styles for smaller screens */
+    .container {
+        width: 90%;
+    }
+}
+
+/* Media query for screens between 600px and 1024px */
+@media (min-width: 601px) and (max-width: 1024px) {
+    /* Adjust styles for medium-sized screens */
+    .container {
+        width: 70%;
+    }
+}
+
+/* Media query for screens larger than 1024px */
+@media (min-width: 1025px) {
+    /* Adjust styles for larger screens */
+    .container {
+        width: 50%;
+    }
+}
