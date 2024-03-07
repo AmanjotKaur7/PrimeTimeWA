@@ -458,38 +458,20 @@ footer a:hover {
   color: LightSteelBlue;
 }
 
-
-
-
-
-
-
-
-
-
-/* Default styles */
-/* Add your default styles here */
-
-/* Media query for screens smaller than 600px */
-@media (max-width: 600px) {
-    /* Adjust styles for smaller screens */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    /* Adjust styles for iPhone XS Max, 11 Pro Max */
     .container {
-        width: 90%;
+        width: 85%; /* Adjust width for larger taller screens */
     }
 }
 
-/* Media query for screens between 600px and 1024px */
-@media (min-width: 601px) and (max-width: 1024px) {
-    /* Adjust styles for medium-sized screens */
-    .container {
-        width: 70%;
-    }
-}
 
-/* Media query for screens larger than 1024px */
-@media (min-width: 1025px) {
-    /* Adjust styles for larger screens */
-    .container {
-        width: 50%;
-    }
-}
+
+
+
+
+
