@@ -464,3 +464,30 @@ footer a:hover {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+div {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+
+
